@@ -1,3 +1,30 @@
+# [Alexandre Hontcharouk]'s Portfolio
+
+Welcome to my online portfolio! I'm a frontend developer passionate about JavaScript and its frameworks, especially React and Next.js. My enthusiasm for problem-solving and my perseverance constantly drive me to seek innovative solutions to technical challenges.
+
+## About Me
+
+- **Passionate about JavaScript**: I'm a staunch advocate for JavaScript and its ecosystem. I love creating interactive and high-performance web applications using the latest technologies.
+
+- **Passionate to React and Next.js**: I've gained solid expertise in React and Next.js, enabling me to create modern, responsive, and optimized user interfaces.
+
+- **Team Player**: I enjoy collaborating with other developers and firmly believe in the value of teamwork. The synergy that comes from collaboration can yield exceptional results.
+
+- **Agile Methodology**: I'm a proponent of the Agile methodology, which means I'm adaptable, responsive, and focused on the continuous delivery of high-quality software.
+
+## My Portfolio
+
+This portfolio was built with Next.js and utilizes a MongoDB database to store and showcase my projects. You'll find a selection of projects I've worked on, demonstrating my expertise in web development. These projects cover a wide range of domains, from creating complex web applications to designing elegant user interfaces.
+
+## Objective
+
+This portfolio is not just a showcase of my skills; it also marks the beginning of my freelance career. I'm open to collaborations and exciting job opportunities. Recruiters will be able to discover the extent of my skills, which have evolved well beyond those of a junior developer.
+
+Feel free to explore my portfolio and contact me if you're interested in collaborating or if you have any questions. Thank you for taking the time to explore my work!
+
+
+FR ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
 # Portfolio d'[Alexandre Hontcharouk]
 
 Bienvenue sur mon portfolio en ligne ! Je suis un développeur frontend passionné par JavaScript et ses frameworks, notamment React et Next.js. Ma passion pour la résolution de problèmes et ma persévérance me poussent constamment à rechercher des solutions innovantes pour les défis techniques auxquels je suis confronté.
