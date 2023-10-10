@@ -1,0 +1,20 @@
+/* //* Colors // */
+:root{
+    --red: #8F1A36;
+    --black: #000000;
+}
+
+
+/* //* ROOT // */
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    user-select: none;
+    outline: none;
+    list-style: none;    
+}
