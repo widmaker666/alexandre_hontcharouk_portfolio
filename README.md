@@ -6,7 +6,7 @@ Bienvenue sur mon portfolio en ligne ! Je suis un développeur frontend passionn
 
 - **Passionné par JavaScript** : Je suis un fervent défenseur de JavaScript et de son écosystème. J'adore créer des applications web interactives et performantes en utilisant les dernières technologies.
 
-- **Expert en React et Next.js** : J'ai acquis une solide expertise dans React et Next.js, ce qui me permet de créer des interfaces utilisateur modernes, réactives et optimisées.
+- **Passionné de React et Next.js** : J'ai acquis une solide expertise dans React et Next.js, ce qui me permet de créer des interfaces utilisateur modernes, réactives et optimisées.
 
 - **Travail en équipe** : J'apprécie collaborer avec d'autres développeurs et je crois fermement en la valeur de l'esprit d'équipe. La synergie qui résulte de la collaboration peut produire des résultats exceptionnels.
 
