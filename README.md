@@ -2,6 +2,9 @@
 
 Welcome to my online portfolio! I'm a frontend developer passionate about JavaScript and its frameworks, especially React and Next.js. My enthusiasm for problem-solving and my perseverance constantly drive me to seek innovative solutions to technical challenges.
 
+## View My Design Work on Figma
+You can check out my design work on [Figma](https://www.figma.com/file/0yOPZg8fbZHDHmaHEyzKCL/Portfolio-project?type=design&node-id=1%3A2&mode=design&t=LLAMdhbRxmDEGsMj-1).
+
 ## About Me
 
 - **Passionate about JavaScript**: I'm a staunch advocate for JavaScript and its ecosystem. I love creating interactive and high-performance web applications using the latest technologies.
@@ -28,6 +31,9 @@ FR -----------------------------------------------------------------------------
 # Portfolio d'[Alexandre Hontcharouk]
 
 Bienvenue sur mon portfolio en ligne ! Je suis un développeur frontend passionné par JavaScript et ses frameworks, notamment React et Next.js. Ma passion pour la résolution de problèmes et ma persévérance me poussent constamment à rechercher des solutions innovantes pour les défis techniques auxquels je suis confronté.
+
+## Voir mon trvail sur Figma
+Vous pouvez voir mon travail sur Figma ici [Figma](https://www.figma.com/file/0yOPZg8fbZHDHmaHEyzKCL/Portfolio-project?type=design&node-id=1%3A2&mode=design&t=LLAMdhbRxmDEGsMj-1).
 
 ## À propos de moi
 
