@@ -1,36 +1,23 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Portfolio de [Votre Nom]
 
-## Getting Started
+Bienvenue sur mon portfolio en ligne ! Je suis un développeur frontend passionné par JavaScript et ses frameworks, notamment React et Next.js. Ma passion pour la résolution de problèmes et ma persévérance me poussent constamment à rechercher des solutions innovantes pour les défis techniques auxquels je suis confronté.
 
-First, run the development server:
+## À propos de moi
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+- **Passionné par JavaScript** : Je suis un fervent défenseur de JavaScript et de son écosystème. J'adore créer des applications web interactives et performantes en utilisant les dernières technologies.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+- **Expert en React et Next.js** : J'ai acquis une solide expertise dans React et Next.js, ce qui me permet de créer des interfaces utilisateur modernes, réactives et optimisées.
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+- **Travail en équipe** : J'apprécie collaborer avec d'autres développeurs et je crois fermement en la valeur de l'esprit d'équipe. La synergie qui résulte de la collaboration peut produire des résultats exceptionnels.
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+- **Méthode Agile** : Je suis un adepte de la méthodologie Agile, ce qui signifie que je suis adaptable, réactif et axé sur la livraison continue de logiciels de haute qualité.
 
-## Learn More
+## Mon Portfolio
 
-To learn more about Next.js, take a look at the following resources:
+Ce portfolio a été construit avec Next.js et utilise une base de données MongoDB pour stocker et afficher mes projets. Vous y trouverez une sélection de projets sur lesquels j'ai travaillé, démontrant mon savoir-faire en développement web. Ces projets couvrent un large éventail de domaines, allant de la création d'applications web complexes à la conception d'interfaces utilisateur élégantes.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## Objectif
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+Ce portfolio ne se limite pas à être une vitrine de mes compétences, il vise également à marquer le début de ma carrière en freelance. Je suis ouvert aux collaborations et aux opportunités de travail passionnantes. Les recruteurs pourront ainsi découvrir l'étendue de mes compétences, qui ont évolué bien au-delà de celles d'un développeur junior.
 
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+N'hésitez pas à explorer mon portfolio et à me contacter si vous êtes intéressé par une collaboration ou si vous avez des questions. Merci de prendre le temps de découvrir mon travail !
