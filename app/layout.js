@@ -1,6 +1,8 @@
 import { VT323, Titillium_Web } from "next/font/google";
 import "./global.css";
 import Head from "next/head";
+import Navbar from "./components/Navbar";
+import Footer from "./components/Footer";
 
 //* Fonts *//
 const vcr = VT323({
@@ -30,7 +32,11 @@ export default function RootLayout({ children }) {
       <Head>
         <link rel="icon" href={metadata.favicon} sizes="any" />
       </Head>
-      <body>{children}</body>
+      <body>
+        <Navbar/>
+        {children}
+        <Footer/>
+      </body>
     </html>
   );
 }
