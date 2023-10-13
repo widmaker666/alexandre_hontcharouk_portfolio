@@ -1,13 +1,13 @@
-
+import styles from "../style/utils/resumeContainer.module.css"
 
 const ResumeContainer = ({ handleClick, title, year, paragraph }) => {
   return (
-    <>
-      <div className="resume-container">
-        <div onClick={handleClick}  className="title-year">
+    <>    
+      <div className={styles.resume}>
+        <div onClick={handleClick} className={styles.titleYear}>
           <h3>{title}</h3>
           <h3>{year}</h3>
-          <p className="hide-paragraph">
+          <p className={styles.hideParagraph}>
             {paragraph}
           </p>
         </div>

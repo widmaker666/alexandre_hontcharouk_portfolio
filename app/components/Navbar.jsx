@@ -25,16 +25,15 @@ const Navbar = () => {
             <span>o</span>
             <span>j</span>
             <span>e</span>
-            <span>c</span>
             <span>t</span>
             <span>s</span>
           </Link>
           <Link href="#about">
-            <span>a</span>
-            <span>b</span>
+            <span>i</span>
+            <span>n</span>
+            <span>f</span>
             <span>o</span>
-            <span>u</span>
-            <span>t</span>
+            <span>s</span>
           </Link>
           <Link href="#contact">
             <span>c</span>
@@ -45,7 +44,6 @@ const Navbar = () => {
             <span>c</span>
             <span>t</span>
           </Link>
-          <Link href="/english">en|fr</Link>
         </div>
       </nav>
     </>

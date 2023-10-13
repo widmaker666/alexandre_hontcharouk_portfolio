@@ -1,25 +1,25 @@
-'use client'
+"use client";
 
 import Image from "next/image";
-import Me from "./assets/images/me.jpg"
+import Me from "./assets/images/me.jpg";
 import styles from "./style/pages/landingPage.module.css";
-import ResumeContainer from "./components/ResumeContainer";
+import ResumeContainer from "./utils/ResumeContainer";
 
 export default function Home() {
-
-const handleClick = () => {
-  console.log("first")
-}
+  const handleClick = () => {
+    console.log("first");
+  };
 
   return (
     <>
       <main className={styles.main}>
         <p>
-          Alexandre Hontcharouk is a passionate web designer, meticulous in his
-          work. He combines his passion for programming with his love of
-          photography. Always attentive to his customers' needs, he strives to
-          create simple, effective and aesthetically pleasing designs, while
-          drawing on his artistic sensibility derived from photography.
+          Alexandre Hontcharouk est un web designer passionné, méticuleux dans
+          son travail. Il combine sa passion pour la programmation avec
+          son amour de la photographie. Toujours à l'écoute de ses
+          clients, il s'efforce de créer des designs simples, efficaces et
+          esthétiques, tout en s'appuyant tout en s'appuyant sur sa sensibilité artistique
+          issue de la photographie.          
         </p>
       </main>
       <section className={styles.banner}>
@@ -31,10 +31,10 @@ const handleClick = () => {
       <section className={styles.resumeSection}>
         <div className={styles.skillsContainer}>
           <div className={styles.photo}>
-            <p>Front end developer in Lyon region and Auvergne Rhône-Alpes</p>
-            <Image src={Me} width={500} alt="it's me"/>
-            <h4>Today</h4>
-            <p>"Culture: Infinite quest, eternal thirst"</p>
+            <p>Developpeur Web de Villeurbanne, région Auvergne Rhône-Alpes</p>
+            <Image src={Me} priority={true} width={500} alt="it's me" />
+            <h4>Aujourd'hui</h4>
+            <p>"Coder : Une quête infinie, une soif éternelle"</p>
           </div>
           <div className={styles.skills}>
             <div className={styles.first}>
@@ -45,24 +45,55 @@ const handleClick = () => {
                 <li>Javascript</li>
                 <li>Reactjs, Nextjs</li>
                 <li>Adobe Lightroom</li>
-                <li>Photography(analog/digital)</li>
+                <li>Photographie(analog/digital)</li>
               </ul>
             </div>
             <div className={styles.second}>
-              <h4>Compétencies</h4>
+              <h4>Compétences</h4>
               <ul>
-               <li>SEO</li>
-               <li>Communication</li>
-               <li>Projetc management</li>
-               <li>Problem solving</li>
-               <li>Photography</li>
-               <li>Strategy and design</li>
+                <li>SEO</li>
+                <li>Communication</li>
+                <li>gestion de projets</li>
+                <li>résolution de problèmes</li>
+                <li>Photographies</li>
+                <li>Strategies et design</li>
               </ul>
             </div>
           </div>
         </div>
-        <div className={styles.resumeContainer}>          
-          <ResumeContainer handleClick={handleClick} title={"Photographic event"} year={"2016 - 2023"} paragraph={"Photographer for various events such as neighborhood parties, telethons, music festivals, concerts ..."} />
+        <div className={styles.resumeContainer}>
+        <ResumeContainer
+            handleClick={handleClick}
+            title={"Developpeur Web"}
+            year={"2022 - 2023"}
+            paragraph={
+              "RNCP 5 (bac+2) formation à distance développeur web 1200h intensives sur 6 mois. Technologie apprise : HTML / CSS / SASS / JAVASCRIPT / REACTJS / RUBY / RUBY ON RAILS"
+            }
+          />
+        <ResumeContainer
+            handleClick={handleClick}
+            title={"Developpeur lead Javascript"}
+            year={"2023"}
+            paragraph={
+              "Developpement seul d'un site vitrine en HTML/SASS/CSS/JAVASCRIPt pour la créatrice de bijoux fantaisie Miss Camille Bijoux"
+            }
+          />
+          <ResumeContainer
+            handleClick={handleClick}
+            title={"Photographe évènementiel"}
+            year={"2016 - 2023"}
+            paragraph={
+              "Photographe pour divers événements tels que fêtes de quartier, téléthons, festivals de musique, concerts..."
+            }
+          />
+          <ResumeContainer
+            handleClick={handleClick}
+            title={"Professeur d'instrument"}
+            year={"2014 - 2021"}
+            paragraph={
+              "Professeur de musique, d'instrument, de groupe de musiciens. Auteur, compositeur,  interprète de musique"
+            }
+          />
         </div>
       </section>
     </>
