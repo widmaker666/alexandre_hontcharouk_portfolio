@@ -1,3 +1,9 @@
+/* //* Fonts // */
+@font-face {
+  font-family: "vcr";
+  src: url("../../assets/fonts/VCR.ttf");        
+}
+
 .navbar {
   display: flex;
   align-items: center;
@@ -13,8 +19,8 @@
   transition: 0.3s ease-in-out;
 }
 .name h3 {
-  font-family: var(--font-vcr);
-  font-size: 30px;
+  font-family: "vcr";
+  font-size: 25px;
   font-weight: 200;
   letter-spacing: 12px;
 }

@@ -5,6 +5,12 @@
     --black: #000000;    
 }
 
+/* //* Fonts // */
+@font-face {
+    font-family: "vcr";
+    src: url("./assets/fonts/VCR.ttf");        
+}
+
 /* //* ROOT // */
 
 html {
