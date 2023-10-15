@@ -5,10 +5,7 @@ const userSchema = new Schema(
     name: String,
     password: String,
     phrase: String,
-  },
-  {
-    timestamps: true,
-  }
+  },  
 );
 
 const UserAdmin =

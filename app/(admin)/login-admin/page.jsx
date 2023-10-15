@@ -11,6 +11,8 @@ const LoginAdmin = () => {
   const handleSubmit = (e) => {
     e.preventDefault();
     console.log(nameAdmin, passwordAdmin, phraseAdmin)
+
+    
   };
 
   return (
