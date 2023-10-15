@@ -1,7 +1,7 @@
 const FormProjects = () => {
   return (
     <>
-      <div>ici les formulaire pour rentrer les projets</div>
+      <div><h1>ici form projet</h1></div>
     </>
   );
 };

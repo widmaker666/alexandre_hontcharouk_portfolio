@@ -15,11 +15,11 @@ export default function Home() {
       <main className={styles.main}>
         <p>
           Alexandre Hontcharouk est un web designer passionné, méticuleux dans
-          son travail. Il combine sa passion pour la programmation avec
-          son amour de la photographie. Toujours à l'écoute de ses
-          clients, il s'efforce de créer des designs simples, efficaces et
-          esthétiques, tout en s'appuyant tout en s'appuyant sur sa sensibilité artistique
-          issue de la photographie.          
+          son travail. Il combine sa passion pour la programmation avec son
+          amour de la photographie. Toujours à l'écoute de ses clients, il
+          s'efforce de créer des designs simples, efficaces et esthétiques, tout
+          en s'appuyant tout en s'appuyant sur sa sensibilité artistique issue
+          de la photographie.
         </p>
       </main>
       <section className={styles.banner}>
@@ -62,7 +62,7 @@ export default function Home() {
           </div>
         </div>
         <div className={styles.resumeContainer}>
-        <ResumeContainer
+          <ResumeContainer
             handleClick={handleClick}
             title={"Developpeur Web"}
             year={"2022 - 2023"}
@@ -70,7 +70,7 @@ export default function Home() {
               "RNCP 5 (bac+2) formation à distance développeur web 1200h intensives sur 6 mois. Technologie apprise : HTML / CSS / SASS / JAVASCRIPT / REACTJS / RUBY / RUBY ON RAILS"
             }
           />
-        <ResumeContainer
+          <ResumeContainer
             handleClick={handleClick}
             title={"Developpeur lead Javascript"}
             year={"2023"}
