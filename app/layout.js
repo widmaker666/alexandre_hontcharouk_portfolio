@@ -4,6 +4,8 @@ import Head from "next/head";
 import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
 
+
+
 //* Fonts *//
 const vcr = VT323({
   weight: "400",
@@ -13,7 +15,7 @@ const vcr = VT323({
 });
 
 const titi = Titillium_Web({
-  weight: ["200", "300", "400", "600", "700","900"],
+  weight: ["200", "300", "400", "600", "700", "900"],
   subsets: ["latin"],
   variable: "--font-titi",
   display: "swap",
@@ -32,11 +34,12 @@ export default function RootLayout({ children }) {
       <Head>
         <link rel="icon" href={metadata.favicon} sizes="any" />
       </Head>
-      <body>
-        <Navbar/>
+      <body>     
+          <Navbar />       
         {children}
-        <Footer/>
+        <Footer />
       </body>
     </html>
+        
   );
 }
