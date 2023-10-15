@@ -1,0 +1,41 @@
+.titleAdmin {
+  text-align: center;
+}
+.titleAdmin > h1 {
+  font-family: var(--font-vcr);
+  letter-spacing: 10px;
+  font-weight: 100;
+  text-transform: uppercase;
+  font-size: 2.5rem;
+}
+.titleAdmin > p {
+  font-family: var(--font-titi);
+  font-style: italic;
+  font-size: 13px;
+  height: 50px;
+}
+.formAdmin {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 15px;
+}
+.formAdmin label {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 5px;
+  font-family: var(--font-vcr);
+  font-size: 1.3rem;
+  letter-spacing: 4px;
+  
+}
+.formAdmin input {
+    width: 250px;
+    height: 30px;
+    padding-left: 8px;
+    margin-bottom: 10px;
+    font-family: var(--font-titi);
+    outline: none;
+}
+

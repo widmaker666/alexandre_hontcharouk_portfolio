@@ -12,7 +12,7 @@ const Navbar = () => {
         </div>
         <div className={styles.ulNav}>
           {/*hide admin*/}
-          <Link href="/panel-admin">
+          <Link href="/login-admin">
             <span>a</span>
             <span>d</span>
             <span>m</span>
