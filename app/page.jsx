@@ -1,13 +1,51 @@
 "use client";
-
+import React, { useState } from "react";
 import Image from "next/image";
-import Me from "./assets/images/me.jpg";
+import Me from "./assets/images/me.webp";
 import styles from "./style/pages/landingPage.module.css";
-import ResumeContainer from "./utils/ResumeContainer";
+
+const experienceData = [
+  {
+    title: "Developpeur Web",
+    date: "2022 - 2023",
+    description:
+      "RNCP 5 (bac+2) formation à distance développeur web 1200h intensives sur 6 mois. Technologie apprise : HTML / CSS / SASS / JAVASCRIPT / REACTJS / RUBY / RUBY ON RAILS",
+  },
+  {
+    title: "Developpeur lead Javascript",
+    date: "2023",
+    description:
+      "Developpement seul d'un site vitrine en HTML/SASS/CSS/JAVASCRIPt pour la créatrice de bijoux fantaisie Miss Camille Bijoux",
+  },
+  {
+    title: "Photographe évènementiel",
+    date: "2016 - 2023",
+    description:
+      "Photographe pour divers événements tels que fêtes de quartier, téléthons, festivals de musique, concerts...",
+  },
+  {
+    title: "Professeur d'instrument",
+    date: "2014 - 2021",
+    description:
+      "Professeur de musique, d'instrument, de groupe de musiciens. Auteur, compositeur, interprète de musique",
+  },
+];
 
 export default function Home() {
-  const handleClick = () => {
-    console.log("first");
+  const [experienceStates, setExperienceStates] = useState(
+    experienceData.map(() => ({
+      isParagraphVisible: false,
+      isResumeOpen: false,
+    }))
+  );
+
+  const handleExperienceClick = (index) => {
+    const newExperienceStates = [...experienceStates];
+    newExperienceStates[index].isParagraphVisible =
+      !newExperienceStates[index].isParagraphVisible;
+    newExperienceStates[index].isResumeOpen =
+      !newExperienceStates[index].isResumeOpen;
+    setExperienceStates(newExperienceStates);
   };
 
   return (
@@ -62,38 +100,33 @@ export default function Home() {
           </div>
         </div>
         <div className={styles.resumeContainer}>
-          <ResumeContainer
-            handleClick={handleClick}
-            title={"Developpeur Web"}
-            year={"2022 - 2023"}
-            paragraph={
-              "RNCP 5 (bac+2) formation à distance développeur web 1200h intensives sur 6 mois. Technologie apprise : HTML / CSS / SASS / JAVASCRIPT / REACTJS / RUBY / RUBY ON RAILS"
-            }
-          />
-          <ResumeContainer
-            handleClick={handleClick}
-            title={"Developpeur lead Javascript"}
-            year={"2023"}
-            paragraph={
-              "Developpement seul d'un site vitrine en HTML/SASS/CSS/JAVASCRIPt pour la créatrice de bijoux fantaisie Miss Camille Bijoux"
-            }
-          />
-          <ResumeContainer
-            handleClick={handleClick}
-            title={"Photographe évènementiel"}
-            year={"2016 - 2023"}
-            paragraph={
-              "Photographe pour divers événements tels que fêtes de quartier, téléthons, festivals de musique, concerts..."
-            }
-          />
-          <ResumeContainer
-            handleClick={handleClick}
-            title={"Professeur d'instrument"}
-            year={"2014 - 2021"}
-            paragraph={
-              "Professeur de musique, d'instrument, de groupe de musiciens. Auteur, compositeur,  interprète de musique"
-            }
-          />
+          {experienceData.map((experience, index) => (
+            <div
+              key={index}
+              className={
+                experienceStates[index].isResumeOpen
+                  ? styles.resumeOpen
+                  : styles.resume
+              }
+            >
+              <div
+                onClick={() => handleExperienceClick(index)}
+                className={styles.titleYear}
+              >
+                <h3>{experience.title}</h3>
+                <h3>{experience.date}</h3>
+              </div>
+              <p
+                className={
+                  experienceStates[index].isParagraphVisible
+                    ? styles.visibleParagraph
+                    : styles.hideParagraph
+                }
+              >
+                {experience.description}
+              </p>
+            </div>
+          ))}
         </div>
       </section>
     </>

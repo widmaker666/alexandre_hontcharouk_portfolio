@@ -55,7 +55,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  background: url("../../assets/images/tv-noise.jpg") fixed;
+  background: url("../../assets/images/tv-noise.webp") fixed;
   filter: grayscale(100%) brightness(158%) contrast(92%);
   -webkit-filter: grayscale(100%) brightness(158%) contrast(92%);
   -moz-filter: grayscale(100%) brightness(158%) contrast(92%);
@@ -64,7 +64,7 @@
 /* //- section resume // */
 .resumeSection {
   height: auto;
-  position: relative;  
+  position: relative;
 }
 
 .skillsContainer {
@@ -83,8 +83,7 @@
 }
 
 .photo img {
-  box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.5);
-
+  box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.5);
 }
 
 .photo h4 {
@@ -125,5 +124,91 @@
   margin-bottom: 5px;
 }
 
+/* //- section resumeContainer // */
 
+.resumeContainer {
+  width: 60%;
+  height: 60vh;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding-left: 20px;
+  margin-top: 20px;
+}
 
+.resume {
+  position: relative;
+  font-family: var(--font-titi);
+  width: 100%;
+  height: 70px;
+  transition: 0.5s;
+}
+.resume::before {
+  position: absolute;
+  top: 0;
+  content: "";
+  width: 100%;
+  height: 1px;
+  background: black;
+}
+.resume::after {
+  position: absolute;
+  bottom: 0;
+  content: "";
+  width: 100%;
+  height: 1px;
+  background: black;
+}
+
+.resumeOpen {
+  position: relative;
+  font-family: var(--font-titi);
+  width: 100%;
+  height: 140px;
+  transition: 0.5s;
+}
+.resumeOpen::before {
+  position: absolute;
+  top: 0;
+  content: "";
+  width: 100%;
+  height: 1px;
+  background: black;
+}
+.resumeOpen::after {
+  position: absolute;
+  bottom: 0;
+  content: "";
+  width: 100%;
+  height: 1px;
+  background: black;
+}
+
+.titleYear {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.titleYear > h3 {
+  font-weight: 700;
+  padding: 0 20px;
+}
+
+.hideParagraph {
+  display: none;  
+  visibility: 0;
+  transition: 1s;  
+}
+
+.visibleParagraph {
+  display: block;
+  width: 50%;
+  visibility: 1;
+  transition: 1s;
+  font-style: italic;
+  font-weight: 400;
+  font-size: 0.9rem;
+  padding: 0 30px;
+  margin: 0;
+}
