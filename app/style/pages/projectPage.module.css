@@ -1,0 +1,54 @@
+.h1-project {
+    text-align: center;
+    font-family: var(--font-vcr);
+    letter-spacing: 8px;
+    font-size: 2.5rem;
+    font-weight: 100;
+    height: 70px;
+}
+
+.formProjet {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;    
+}
+
+/* //! Composant FormDivProject // */
+.projet-title label {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 5px;
+    font-family: var(--font-vcr);
+    font-size: 1.3rem;
+    letter-spacing: 4px;
+    
+  }
+.projet-title input {
+      width: 250px;
+      height: 30px;
+      padding-left: 8px;
+      margin-bottom: 20px;
+      font-family: var(--font-titi);
+      outline: none;
+  }
+
+/* //! Composant FormTextProject // */ 
+.projet-description label {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 5px;
+    font-family: var(--font-vcr);
+    font-size: 1.3rem;
+    letter-spacing: 4px;
+    
+}
+.projet-description textarea {
+      width: 250px;
+      height: 70px;
+      padding-left: 8px;
+      margin-bottom: 20px;
+      font-family: var(--font-titi);
+      outline: none;
+  }
+  

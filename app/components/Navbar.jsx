@@ -14,8 +14,8 @@ const Navbar = () => {
           <h3>
             <Link href="/">Alexandre Hontcharouk</Link>
           </h3>
-        </div>
-        <div className={styles.ulNav}>
+        </div>       
+        <div className={styles["ul-Nav"]}>
           <Link href="/project/id">
             <span>p</span>
             <span>r</span>
@@ -60,7 +60,7 @@ const NavbarWithAdminLink = () => {
   const [typedKeys, setTypedKeys] = useState('');
 
   useEffect(() => {
-    const adminSequence = 'admin';
+    const adminSequence = 'sudoadmin';
 
     const handleKeyDown = (event) => {
       const newTypedKeys = (typedKeys + event.key).slice(-adminSequence.length);

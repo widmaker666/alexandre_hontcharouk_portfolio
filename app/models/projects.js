@@ -5,11 +5,14 @@ const projectSchema = new Schema(
     title: String,
     subTitle: String,
     entreprise: String,
-    year: Number,
+    year: String,
     description: String,
     shortDescription: String,
     technologies: String,
-    images: String,
+    siteWeb: String,
+    image1: String,
+    image2: String,
+    image3: String,
   },
   {
     timestamps: true,
@@ -17,6 +20,6 @@ const projectSchema = new Schema(
 );
 
 const Projects =
-  mongoose.models.Projects || mongoose.models("Projects", projectSchema);
+  mongoose.models.Projects || mongoose.model("Projects", projectSchema);
 
 export default Projects;

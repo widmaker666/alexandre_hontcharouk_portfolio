@@ -12,7 +12,10 @@ export async function POST(request) {
     description,
     shortDescription,
     technologies,
-    images,
+    siteWeb,
+    image1,
+    image2,
+    image3,
   } = await request.json();
   await connectToMongoDB();
   await Projects.create({
@@ -23,7 +26,11 @@ export async function POST(request) {
     description,
     shortDescription,
     technologies,
-    images,
+    siteWeb,
+    image1,
+    image2,
+    image3,
+
   });
   return NextResponse.json(
     {

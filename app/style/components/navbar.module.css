@@ -38,13 +38,13 @@
   transition: 0.3s;
 }
 
-.ulNav {
+.ul-Nav {
   display: flex;
   justify-content: center;
   align-items: center;
   list-style: none;
 }
-.ulNav a {
+.ul-Nav a {
   position: relative;
   margin-right: 100px;
   font-family: var(--font-vcr);
@@ -57,19 +57,19 @@
   display: inline-block;
   perspective: 1000px;
 }
-.ulNav a:hover {
+.ul-Nav a:hover {
   cursor: pointer;
   color: var(--red);
   transition: 0.3s;
 }
 
-.ulNav a span {
+.ul-Nav a span {
   display: inline-block;
   transform-style: preserve-3d; /* Permet la 3D */
   transition: transform 0.3s; /* Transition de la transformation */
 }
 
-.ulNav a:hover span {
+.ul-Nav a:hover span {
   animation: rotateLetter 1s linear;
 }
 
@@ -86,7 +86,7 @@
   }
 }
 
-.ulNav a::before {
+.ul-Nav a::before {
   content: "";
   position: absolute;
   bottom: -10px;
@@ -97,7 +97,7 @@
   transition: width 0.5s;
 }
 
-.ulNav a:hover::before {
+.ul-Nav a:hover::before {
   width: 90%;
 }
 
