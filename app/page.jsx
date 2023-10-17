@@ -65,7 +65,7 @@ export default function Home() {
         <h1>portfolio</h1>
       </section>
       <section id="projects" className={styles.projectComponent}>
-        <AllProjects/>
+        {/* <AllProjects/> */}
       </section>
       <section id="about" className={styles.resumeSection}>
         <div className={styles.skillsContainer}>
