@@ -11,6 +11,9 @@
     font-family: "vcr";
     src: url("./assets/fonts/VCR.ttf");        
 }
+.vcr-font {
+    font-family: var(--vcr);
+  }
 
 /* //* ROOT // */
 
