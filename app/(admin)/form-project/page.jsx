@@ -48,9 +48,7 @@ const FormProjects = () => {
       });
 
       if (res.ok) {
-        alert("Projet créé");
-        setFormData({ ...formData, title: ""})        
-        setFormData({ ...formData, subTitle: ""})        
+        alert("Projet créé");               
         router.refresh()        
         router.push("/form-project");
       } else {
