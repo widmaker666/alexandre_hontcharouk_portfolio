@@ -3,6 +3,7 @@ import React, { useState } from "react";
 import Image from "next/image";
 import Me from "./assets/images/me.webp";
 import styles from "./style/pages/landingPage.module.css";
+import AllProjects from "./components/AllProjects";
 
 const experienceData = [
   {
@@ -63,10 +64,10 @@ export default function Home() {
       <section className={styles.banner}>
         <h1>portfolio</h1>
       </section>
-      <section className={styles.projectComponent}>
-        ici le components des projets
+      <section id="projects" className={styles.projectComponent}>
+        <AllProjects/>
       </section>
-      <section className={styles.resumeSection}>
+      <section id="about" className={styles.resumeSection}>
         <div className={styles.skillsContainer}>
           <div className={styles.photo}>
             <p>Developpeur Web de Villeurbanne, région Auvergne Rhône-Alpes</p>

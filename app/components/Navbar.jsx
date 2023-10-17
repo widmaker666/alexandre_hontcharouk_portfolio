@@ -16,7 +16,7 @@ const Navbar = () => {
           </h3>
         </div>       
         <div className={styles["ul-Nav"]}>
-          <Link href="/project/id">
+          <Link href="#projects">
             <span>p</span>
             <span>r</span>
             <span>o</span>

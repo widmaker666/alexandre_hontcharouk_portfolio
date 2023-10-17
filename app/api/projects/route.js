@@ -43,10 +43,15 @@ export async function POST(request) {
 }
 
 // - GET - //
-export async function GET(request) {
-  await connectToMongoDB();
-  const projects = await Projects.find();
-  return NextResponse.json({ projects });
+export async function GET(request) { 
+ try {
+  await connectToMongoDB()
+  const project = await Projects.find()
+  return NextResponse.json(project)
+  
+ } catch (error) {
+  console.log(error)
+ }
 }
 
 

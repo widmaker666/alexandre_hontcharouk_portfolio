@@ -49,7 +49,10 @@ const FormProjects = () => {
 
       if (res.ok) {
         alert("Projet créé");
-        router.push("/");
+        setFormData({ ...formData, title: ""})        
+        setFormData({ ...formData, subTitle: ""})        
+        router.refresh()        
+        router.push("/form-project");
       } else {
         throw new Error("failed to fetch");
       }

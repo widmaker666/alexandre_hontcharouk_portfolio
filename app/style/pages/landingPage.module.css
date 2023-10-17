@@ -51,14 +51,10 @@
 
 .projectComponent {
   height: auto;
-  padding: 10px 20px 10px 20px;
   display: flex;
-  justify-content: center;
-  align-items: center;
-  background: url("../../assets/images/tv-noise.webp") fixed;
-  filter: grayscale(100%) brightness(158%) contrast(92%);
-  -webkit-filter: grayscale(100%) brightness(158%) contrast(92%);
-  -moz-filter: grayscale(100%) brightness(158%) contrast(92%);
+  flex-direction: column;
+  background: url("../../assets/images/tv-noise.webp") fixed;   
+  border-bottom: 3.5px solid black;
 }
 
 /* //- section resume // */
@@ -193,13 +189,12 @@
 .titleYear {
   width: 100%;
   display: flex;
-  
+
   justify-content: space-between;
 }
 .titleYear:hover {
   cursor: pointer;
   color: white;
-  
 }
 
 .titleYear > h3 {
@@ -208,9 +203,9 @@
 }
 
 .hideParagraph {
-  display: none;  
+  display: none;
   visibility: 0;
-  transition: 1s;  
+  transition: 1s;
 }
 
 .visibleParagraph {
@@ -222,5 +217,5 @@
   font-weight: 400;
   font-size: 0.9rem;
   padding: 0 30px;
-  margin: 0;   
+  margin: 0;
 }
