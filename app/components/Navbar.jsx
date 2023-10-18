@@ -32,6 +32,13 @@ const Navbar = () => {
             <span>o</span>
             <span>s</span>
           </Link>
+          <Link href="/devis">
+            <span>d</span>
+            <span>e</span>
+            <span>v</span>
+            <span>i</span>
+            <span>s</span>
+          </Link>
           <Link href="/#contact">
             <span>c</span>
             <span>o</span>

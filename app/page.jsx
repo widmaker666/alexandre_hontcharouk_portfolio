@@ -65,7 +65,7 @@ export default function Home() {
         <h1>portfolio</h1>
       </section>
       <section id="projects" className={styles.projectComponent}>
-        <AllProjects/>
+        <AllProjects />
       </section>
       <section id="about" className={styles.resumeSection}>
         <div className={styles.skillsContainer}>
@@ -130,6 +130,33 @@ export default function Home() {
           ))}
         </div>
       </section>
+      <div className={styles.contactContainer}>
+        <a
+          href="mailto:alexandre.professionel69@gmail.com"
+          className={styles.contactLink}
+        >
+          <h1>alexandre.professionel69@gmail.com</h1>
+        </a>
+        <h1>
+          Prendre contact ici          
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              class="icon icon-tabler icon-tabler-arrow-up-right"
+              width="64"
+              height="64"
+              viewBox="0 0 24 24"
+              stroke-width="1.5"
+              stroke="#000000"
+              fill="none"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+            >
+              <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+              <path d="M17 7l-10 10" />
+              <path d="M8 7l9 0l0 9" />
+            </svg>         
+        </h1>
+      </div>
     </>
   );
 }
