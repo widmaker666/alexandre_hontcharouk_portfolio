@@ -53,7 +53,7 @@
   height: auto;
   display: flex;
   flex-direction: column;
-  background: url("../../assets/images/tv-noise.webp") fixed;   
+  background: url("../../assets/images/tv-noise.webp") fixed;
   border-bottom: 3.5px solid black;
 }
 
@@ -226,17 +226,15 @@
   width: 100%;
   display: flex;
   flex-direction: column;
-   
-  
+  position: relative;
 }
 
 .contactContainer > a {
-  text-decoration: none; 
-  
+  text-decoration: none;
 }
 
 .contactContainer > a > h1 {
-  text-align: right; 
+  text-align: right;
   color: black;
   font-family: var(--font-titi);
   font-size: 30px;
@@ -246,7 +244,7 @@
   transition: 0.5s;
 }
 
-.contactContainer > a > h1:hover{
+.contactContainer > a > h1:hover {
   text-decoration: 2px underline var(--red);
   text-underline-offset: 8px;
   color: var(--red);
@@ -270,9 +268,57 @@
   color: black;
 }
 
+.svg {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+.svg:hover{
+  animation: arrow 2s ease 0s 1 normal forwards;
 
+}
+@keyframes arrow {
+	0% {
+		animation-timing-function: ease-in;
+		opacity: 1;
+		transform: translateY(15px);
+	}
 
+	24% {
+		opacity: 1;
+	}
 
+	40% {
+		animation-timing-function: ease-in;
+		transform: translateY(16px);
+	}
 
+	65% {
+		animation-timing-function: ease-in;
+		transform: translateY(12px);
+	}
 
+	82% {
+		animation-timing-function: ease-in;
+		transform: translateY(6px);
+	}
 
+	93% {
+		animation-timing-function: ease-in;
+		transform: translateY(4px);
+	}
+
+	25%,
+	55%,
+	75%,
+	87% {
+		animation-timing-function: ease-out;
+		transform: translateY(0px);
+	}
+
+	100% {
+		animation-timing-function: ease-out;
+		opacity: 1;
+		transform: translateY(0px);
+	}
+}
