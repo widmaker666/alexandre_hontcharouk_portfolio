@@ -18,7 +18,7 @@
 }
 
 .div-projets > h2 {
-  text-align: left;
+  text-align: left;  
   font-size: 2.5rem;
   padding-left: 20px;
   color: rgb(0, 0, 0);
@@ -27,16 +27,24 @@
   font-weight: 700;
   text-shadow: 2px 2px 1px rgb(255, 255, 255);
 }
-.div-projets > h1 {
+.div-projets > a {
+  text-decoration: none;
+    
+}
+
+.div-projets > a > h1 {
   text-align: center;
   font-size: 4.5rem;
   color: rgb(0, 0, 0);
   text-transform: capitalize;
   letter-spacing: 5px;
   font-weight: 100;
-  text-shadow: 1px 1px 1px rgb(255, 255, 255);
+  text-shadow: 2px 2px 1px rgb(255, 255, 255);
   -webkit-text-stroke: 0.1px rgb(255, 255, 255);
+
 }
+
+
 .div-projets > h4 {
   text-align: right;
   background: white;

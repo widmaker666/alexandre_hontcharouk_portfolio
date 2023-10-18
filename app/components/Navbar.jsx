@@ -16,7 +16,7 @@ const Navbar = () => {
           </h3>
         </div>       
         <div className={styles["ul-Nav"]}>
-          <Link href="#projects">
+          <Link href="/#projects">
             <span>p</span>
             <span>r</span>
             <span>o</span>
@@ -25,14 +25,14 @@ const Navbar = () => {
             <span>t</span>
             <span>s</span>
           </Link>
-          <Link href="#about">
+          <Link href="/#about">
             <span>i</span>
             <span>n</span>
             <span>f</span>
             <span>o</span>
             <span>s</span>
           </Link>
-          <Link href="#contact">
+          <Link href="/#contact">
             <span>c</span>
             <span>o</span>
             <span>n</span>

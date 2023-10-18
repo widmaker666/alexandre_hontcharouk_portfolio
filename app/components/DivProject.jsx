@@ -1,3 +1,4 @@
+import Link from "next/link";
 import styles from "../style/components/DivProject.module.css";
 
 const DivProject = ({ project }) => {
@@ -5,7 +6,12 @@ const DivProject = ({ project }) => {
     <>
       <div className={styles["div-projets"]}>
         <h2>{project.year}</h2>
-        <h1>{project.title}</h1>
+        
+        <Link href={`/project/${project._id}`}>
+          <h1>{project.title}</h1>
+        </Link>
+                  
+        
         <h4>{project.technologies}</h4>
       </div>
     </>
