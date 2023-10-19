@@ -130,7 +130,7 @@ export default function Home() {
           ))}
         </div>
       </section>
-      <div className={styles.contactContainer}>
+      <div id="contact" className={styles.contactContainer}>
         <a
           href="mailto:alexandre.professionel69@gmail.com"
           className={styles.contactLink}
