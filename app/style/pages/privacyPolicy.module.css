@@ -1,16 +1,15 @@
 .rgpd-container {
-    padding: 5px 30px;
-    height: 100vh;    
+  padding: 5px 30px;
+  height: 100vh;
 }
 
 .rgpd-container h3 {
-    font-family: "vcr";
-    letter-spacing: 2px;
+  font-family: "vcr";
+  letter-spacing: 2px;
 }
 
 .rgpd-container p {
-    line-height: 22px;
-    font-family: var(--font-titi);
-    font-style: italic;
-    
+  line-height: 22px;
+  font-family: var(--font-titi);
+  font-style: italic;
 }
