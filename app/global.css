@@ -1,29 +1,28 @@
 /* //* Colors // */
-:root{
-    --red: #a30a2e;
-    --red50: rgba(143, 26, 54, 0.57);
-    --black: #000000;
-    --green: rgba(180, 20, 172, 0.5);    
+:root {
+  --red: #a30a2e;
+  --red50: rgba(143, 26, 54, 0.57);
+  --black: #000000;
+  --green: rgba(180, 20, 172, 0.5);
 }
 
 /* //* Fonts // */
 @font-face {
-    font-family: "vcr";
-    src: url("./assets/fonts/VCR.ttf");        
+  font-family: "vcr";
+  src: url("./assets/fonts/VCR.ttf");
 }
 .vcr-font {
-    font-family: var(--vcr);
-  }
+  font-family: var(--vcr);
+}
 
 /* //* ROOT // */
 
 html {
-    scroll-behavior: smooth;
+  scroll-behavior: smooth;
 }
 
 body {
-    margin: 0;
-    padding: 0;
-    user-select: none;        
+  margin: 0;
+  padding: 0;
+  user-select: none;
 }
-

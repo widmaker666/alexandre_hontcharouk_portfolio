@@ -2,12 +2,11 @@ import styles from "../style/pages/privacyPolicy.module.css";
 
 const PrivacyPolicy = () => {
   return (
-    <div>
-      Ici les politique de confidentialité des données
-      <h6>Dernière mise à jour : [Date de la dernière mise à jour]</h6>
+    <div className={styles["rgpd-container"]}>      
+      <h6>Dernière mise à jour : 19 octobre 2023</h6>
       <h3>Introduction</h3>
       <p>
-        Bienvenue sur [Votre nom de site web] ("le Site"). La confidentialité de
+        Bienvenue sur alexandre-hontcharouk-portfolio ("le Site"). La confidentialité de
         vos données est essentielle pour nous. Cette Politique de
         Confidentialité des Données vise à vous informer sur la manière dont
         nous collectons, utilisons et protégeons vos informations personnelles
@@ -55,8 +54,7 @@ const PrivacyPolicy = () => {
         Vous avez le droit d'accéder à vos données personnelles que nous
         détenons et de demander qu'elles soient corrigées, mises à jour ou
         supprimées. Pour exercer ces droits ou pour poser des questions sur
-        notre Politique de Confidentialité, veuillez nous contacter à [votre
-        adresse e-mail].
+        notre Politique de Confidentialité, veuillez nous contacter à alexandre.professionel69@gmail.com.
       </p>
       <h3>7-Modifications de la Politique de Confidentialité</h3>
       <p>
@@ -69,11 +67,10 @@ const PrivacyPolicy = () => {
       <h3>8-Contact</h3>
       <p>
         Si vous avez des questions concernant cette Politique de Confidentialité
-        des Données, veuillez nous contacter à [votre adresse e-mail]. En
+        des Données, veuillez nous contacter à alexandre.professionel69@gmail.com. En
         utilisant ce Site, vous acceptez les termes de cette Politique de
         Confidentialité des Données. Si vous n'acceptez pas ces termes, veuillez
-        ne pas utiliser notre site web. [Signature] [Votre nom] [Titre] [Adresse
-        e-mail] [Adresse postale si applicable]
+        ne pas utiliser notre site web. Mr Hontcharouk Developpeur Web, alexandre.professionel69@gmail.com, 425 cours Emile Zola 69100 Villeurbanne. 
       </p>
     </div>
   );

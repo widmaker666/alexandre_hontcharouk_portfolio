@@ -141,15 +141,15 @@ export default function Home() {
           Prendre contact ici
           <svg
             xmlns="http://www.w3.org/2000/svg"
-            class="icon icon-tabler icon-tabler-arrow-up-right"
+            className="icon icon-tabler icon-tabler-arrow-up-right"
             width="64"
             height="64"
             viewBox="0 0 24 24"
-            stroke-width="1.5"
+            strokeWidth="1.5"
             stroke="#000000"
             fill="none"
-            stroke-linecap="round"
-            stroke-linejoin="round"
+            strokeLinecap="round"
+            strokeLinejoin="round"
           >
             <path stroke="none" d="M0 0h24v24H0z" fill="none" />
             <path d="M17 7l-10 10" />
@@ -157,18 +157,17 @@ export default function Home() {
           </svg>
         </h1>
         <a href="/#main">
-          <svg
-          className={styles.svg}
+          <svg                      
             xmlns="http://www.w3.org/2000/svg"
-            class="icon icon-tabler icon-tabler-arrow-up"
+            className="icon icon-tabler icon-tabler-arrow-up"
             width="80"
             height="80"
             viewBox="0 0 24 24"
-            stroke-width="1.5"
+            strokeWidth="1.5"
             stroke="#000000"
             fill="none"
-            stroke-linecap="round"
-            stroke-linejoin="round"
+            strokeLinecap="round"
+            strokeLinejoin="round"
           >
             <path stroke="none" d="M0 0h24v24H0z" fill="none" />
             <path d="M12 5l0 14" />
