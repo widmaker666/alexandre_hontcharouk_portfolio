@@ -11,8 +11,9 @@ const AllProjects = () => {
   const getAllProjects = async () => {
     try {
       const response = await fetch("/api/projects");
-      const data = await response.json(); // Utiliser un nom de variable différent
-      console.log(data);
+      const data = await response.json();
+      // Utiliser un nom de variable différent
+      
       setAllProjectsArray(data);
     } catch (error) {
       console.log(error);
@@ -30,6 +31,7 @@ const AllProjects = () => {
         src={loader}
         width={100}
         height={100}
+        alt="Loader sablier"
       />
     );
   }

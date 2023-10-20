@@ -37,14 +37,14 @@ const SinglePageProject = ({
               <h4>{year}</h4>
             </div>
           </div>
-          <img src={image1} alt="logo MSC" />
+          <img src={image1} alt="logo du projet" />
         </div>
         <div className={styles["second-container"]}>
             <h2>Resumé : </h2>
             <p>{description}</p>
         </div>
         <div className={styles["third-container"]}>
-          <img src={image2} alt="" />
+          <img src={image2} alt="image du projet en question" />
           <div>
             <h2>Technologies utilisées :</h2>
             <p>{technologies}</p>

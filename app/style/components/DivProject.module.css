@@ -64,3 +64,75 @@
 .div-projets > h1 {
   cursor: pointer;
 }
+
+/* //* MEDIA SCREEN MOBILE FIRST // */
+@media screen and (min-width: 320px) and (max-width: 1024px) {
+  .div-projets {
+    font-family: "vcr";
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+  }
+  
+  .div-projets > h2::before {
+    position: absolute;
+    content: "";
+    top: 0px;
+    width: 85%;
+    height: 3px;
+    background: black;
+    transform: translateX(5%);
+  }
+  
+  .div-projets > h2 {
+    text-align: left;  
+    font-size: 1.7rem;
+    padding-left: 20px;
+    color: rgb(0, 0, 0);
+    text-transform: capitalize;
+    letter-spacing: 1.5px;
+    font-weight: 700;
+    text-shadow: 2px 2px 1px rgb(255, 255, 255);
+  }
+  .div-projets > a {
+    text-decoration: none;
+      
+  }
+  
+  .div-projets > a > h1 {
+    text-align: center;
+    padding: 0 8px;
+    font-size: 2.5rem;
+    color: rgb(0, 0, 0);
+    text-transform: capitalize;
+    letter-spacing: 5px;
+    font-weight: 300;
+    text-shadow: 2px 2px 1px rgb(255, 255, 255);
+    -webkit-text-stroke: 0.1px rgb(255, 255, 255);
+  
+  }
+  
+  
+  .div-projets > h4 {
+    text-align: right;
+    background: white;
+    padding: 5px 10px 5px 0;
+    font-size: 0.8rem;
+    color: rgb(0, 0, 0);
+    text-transform: capitalize;
+    letter-spacing: 0.5px;
+    font-weight: 600;
+    text-shadow: 1px 1px 1px rgb(255, 255, 255);
+  }
+  
+  .div-projets:hover {
+    background: none;
+  }
+  
+  .div-projets > h1 {
+    cursor: pointer;
+  }
+  
+}
