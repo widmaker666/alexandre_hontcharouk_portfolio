@@ -616,7 +616,7 @@
 }
 
 
-@media screen and (min-width: 1024px) {
+@media screen and (min-width: 1024px) and (max-width: 1201px) {
   .main {
     width: 100%;
     height: auto;
