@@ -1,5 +1,5 @@
 "use client";
-import React, { useContext, useState } from "react";
+import React, { useState } from "react";
 import Image from "next/image";
 import Me from "./assets/images/me.webp";
 import styles from "./style/pages/landingPage.module.css";
