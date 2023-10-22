@@ -59,7 +59,7 @@ export default function Home() {
           son travail. Il combine sa passion pour la programmation avec son
           amour de la photographie. Toujours à l'écoute de ses clients, il
           s'efforce de créer des designs simples, efficaces et esthétiques, tout
-          en s'appuyant tout en s'appuyant sur sa sensibilité artistique issue
+          en s'appuyant sur sa sensibilité artistique issue
           de la photographie.
         </p>
       </main>
