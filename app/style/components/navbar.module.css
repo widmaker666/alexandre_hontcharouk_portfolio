@@ -105,15 +105,15 @@
 @media screen and (min-width: 320px) and (max-width: 1024px) {
   .navbar {
     width: 100%;
-    display: flex;  
-    flex-direction: column;   
+    display: flex;
+    flex-direction: column;
     align-items: center;
     justify-content: center;
     padding: 0 0px 0 0px;
     border-bottom: 2px solid var(--black);
     height: auto;
     text-align: center;
-    gap: 10px;    
+    gap: 10px;
   }
 
   .name {
@@ -128,15 +128,15 @@
     font-size: 25px;
     font-weight: 500;
     letter-spacing: 12px;
-    width: 230px;    
-    margin: 10px auto; 
+    width: 230px;
+    margin: 10px auto;
     display: flex;
-    justify-content: center;     
+    justify-content: center;
   }
 
   .name h3 a {
     text-decoration: none;
-    color: var(--black);    
+    color: var(--black);
   }
   .name:hover {
     background: none;
@@ -149,12 +149,11 @@
   }
 
   .ul-Nav {
-    display: flex;       
+    display: flex;
     justify-content: center;
     align-items: center;
-    list-style: none; 
-    margin-bottom: 20px; 
-     
+    list-style: none;
+    margin-bottom: 20px;
   }
 
   .ul-Nav a:nth-child(1) {
@@ -168,7 +167,7 @@
   }
 
   .ul-Nav a {
-    position: relative;    
+    position: relative;
     font-family: var(--font-vcr);
     font-size: 28px;
     letter-spacing: 1px;
@@ -182,7 +181,6 @@
     border: 2px solid black;
     width: 65px;
     padding: 5px;
-    
   }
   .ul-Nav a:hover {
     cursor: pointer;
@@ -198,6 +196,101 @@
 
   .ul-Nav a:hover span {
     animation: none;
+  }
+
+  .ul-Nav a::before {
+    content: "";
+    position: absolute;
+    bottom: 0px;
+    left: 0;
+    width: 0;
+    height: 0px;
+    background: transparent;
+    transition: width 0.5s;
+  }
+
+  .ul-Nav a:hover::before {
+    width: 0;
+  }
+}
+
+/* //- Portable and Pc screen // */
+@media screen and (min-width: 1025px) and (max-width: 1630px) {
+  .navbar {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 0 0px 0 0px;
+    border-bottom: 2px solid var(--black);
+    height: auto;
+    text-align: center;
+    gap: 10px;
+  }
+
+  .name {
+    text-align: center;
+    width: 100%;
+    border-right: none;
+    border-bottom: 1px solid black;
+    transition: 0.3s ease-in-out;
+  }
+  .name h3 {
+    font-family: "vcr";
+    font-size: 25px;
+    font-weight: 500;
+    letter-spacing: 12px;
+    width: 230px;
+    margin: 10px auto;
+    display: flex;
+    justify-content: center;
+  }
+
+  .name h3 a {
+    text-decoration: none;
+    color: var(--black);
+  }
+
+  .ul-Nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    margin-bottom: 20px;
+  }
+
+  .ul-Nav a:nth-child(1) {
+    display: block;
+  }
+  .ul-Nav a:nth-child(2) {
+    display: block;
+  }
+  .ul-Nav a:nth-child(4) {
+    display: block;
+  }
+
+  .ul-Nav a {
+    position: relative;
+    font-family: var(--font-vcr);
+    font-size: 28px;
+    letter-spacing: 1px;
+    color: var(--black);
+    text-decoration: none;
+    text-transform: uppercase;
+    transition: none;
+    display: block;
+    perspective: none;
+    margin: 0 30px;
+    border: 2px solid black;
+    width: 100px;
+    padding: 5px;
+  }
+
+  .ul-Nav a span {
+    display: inline-block;
+    transform-style: preserve-3d; /* Permet la 3D */
+    transition: transform 0.3s; /* Transition de la transformation */
   }
 
   .ul-Nav a::before {
