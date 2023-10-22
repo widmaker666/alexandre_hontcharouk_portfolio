@@ -1,6 +1,7 @@
 import Link from "next/link";
 import styles from "../style/components/singlePageProject.module.css";
 
+
 const SinglePageProject = ({
   title,
   entreprise,
@@ -14,8 +15,6 @@ const SinglePageProject = ({
   image2,
   image3,
 }) => {
-
-   
   return (
     <>
       <section className={styles["section-singleProject"]}>
@@ -25,8 +24,8 @@ const SinglePageProject = ({
             <div>
               <h3>Site Web</h3>
               <Link href={siteWeb} target="_blank">
-              <h4>{siteWeb}</h4>              
-              </Link> 
+                <h4>{siteWeb}</h4>
+              </Link>
             </div>
             <div>
               <h3>Entreprise</h3>
@@ -40,8 +39,8 @@ const SinglePageProject = ({
           <img src={image1} alt="logo du projet" />
         </div>
         <div className={styles["second-container"]}>
-            <h2>Resumé : </h2>
-            <p>{description}</p>
+          <h2>Resumé : </h2>
+          <p>{description}</p>
         </div>
         <div className={styles["third-container"]}>
           <img src={image2} alt="image du projet en question" />

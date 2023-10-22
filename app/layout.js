@@ -3,6 +3,7 @@ import "./global.css";
 import Head from "next/head";
 import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
+import AdminContextProvider from "./context/AdminContext";
 
 //* Fonts *//
 const vcr = VT323({
@@ -32,12 +33,13 @@ export default function RootLayout({ children }) {
       <Head>
         <link rel="icon" href={metadata.favicon} sizes="any" />
       </Head>
-      <body>     
-          <Navbar />       
-        {children}
-        <Footer />
+      <body>
+        <AdminContextProvider>
+          <Navbar />
+          {children}
+          <Footer />
+        </AdminContextProvider>
       </body>
     </html>
-        
   );
 }

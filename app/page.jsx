@@ -1,5 +1,5 @@
 "use client";
-import React, { useState } from "react";
+import React, { useContext, useState } from "react";
 import Image from "next/image";
 import Me from "./assets/images/me.webp";
 import styles from "./style/pages/landingPage.module.css";
@@ -33,12 +33,14 @@ const experienceData = [
 ];
 
 export default function Home() {
+  
   const [experienceStates, setExperienceStates] = useState(
     experienceData.map(() => ({
       isParagraphVisible: false,
       isResumeOpen: false,
     }))
   );
+  
 
   const handleExperienceClick = (index) => {
     const newExperienceStates = [...experienceStates];

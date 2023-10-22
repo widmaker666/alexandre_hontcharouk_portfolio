@@ -1,10 +1,15 @@
 "use client";
 
-import { useState } from "react";
+import { useContext, useState } from "react";
 import styles from "../../style/pages/loginAdmin.module.css";
 import { useRouter } from "next/navigation";
+import { AdminContext } from "@/app/context/AdminContext";
+
+
 
 const LoginAdmin = () => {
+  const { setIsAdmin } = useContext(AdminContext);
+
   const [nameAdmin, setNameAdmin] = useState("");
   const [passwordAdmin, setPasswordAdmin] = useState("");
   const [phraseAdmin, setPhraseAdmin] = useState("");
@@ -19,6 +24,7 @@ const LoginAdmin = () => {
       phraseAdmin === process.env.NEXT_PUBLIC_PHRASE
     ) {
       alert("C'est bon c'est toi l'admin !");
+      setIsAdmin(true);
       setNameAdmin("");
       setPasswordAdmin("");
       setPhraseAdmin("");
