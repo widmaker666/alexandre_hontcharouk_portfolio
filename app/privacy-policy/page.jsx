@@ -64,6 +64,7 @@ const PrivacyPolicy = () => {
         conséquence. Nous vous encourageons à consulter régulièrement cette page
         pour vous tenir informé des changements.
       </p>
+      <div>
       <h3>8-Contact</h3>
       <p>
         Si vous avez des questions concernant cette Politique de Confidentialité
@@ -72,6 +73,7 @@ const PrivacyPolicy = () => {
         Confidentialité des Données. Si vous n'acceptez pas ces termes, veuillez
         ne pas utiliser notre site web. Mr Hontcharouk Developpeur Web, alexandre.professionel69@gmail.com, 425 cours Emile Zola 69100 Villeurbanne. 
       </p>
+      </div>
     </div>
   );
 };

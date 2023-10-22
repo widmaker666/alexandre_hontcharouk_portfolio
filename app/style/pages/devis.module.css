@@ -218,3 +218,114 @@
     transform: scale(1.08);
   }
 }
+@media screen and (min-width: 1025px) and (max-width: 1450px) {
+  .form-devis {
+    height: auto;
+  }
+  .form-devis > h1 {
+    font-family: "vcr";
+    text-align: center;
+    font-size: 1.2rem;
+    letter-spacing: 1px;
+  }
+  .form-devis > p {
+    margin: 0 auto;
+    margin-bottom: 50px;
+    text-align: center;
+    font-family: var(--font-titi);
+    font-style: italic;
+    font-size: 0.8rem;
+    letter-spacing: 0.8px;
+    line-height: 17px;
+    width: 90%;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.6);
+    padding: 5px;
+  }
+  .form-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .form-container label {
+    font-family: "vcr";
+    font-size: 1.3rem;
+    margin-bottom: 5px;
+  }
+
+  .form-container input {
+    width: 90%;
+    height: 3.5vh;
+    padding-left: 5px;
+    font-family: var(--font-titi);
+    letter-spacing: 1px;
+    margin-bottom: 15px;
+  }
+
+  .form-container input::placeholder {
+    color: black;
+  }
+
+  .form-container input:focus {
+    background: var(--red);
+    color: white;
+    font-weight: 700;
+  }
+
+  .form-container textarea {
+    width: 90%;
+    height: 17vh;
+    padding-left: 5px;
+    font-family: var(--font-titi);
+    letter-spacing: 0.8px;
+  }
+
+  .form-container textarea::placeholder {
+    color: black;
+  }
+
+  .form-container textarea:focus {
+    background: var(--red);
+    color: white;
+    font-weight: 700;
+  }
+
+  .checkbox {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin-top: 10px;
+  }
+
+  .rgpd {
+    width: 10% !important;
+    margin: 0 10px 0 0;
+    transform: translateY(18%);
+  }
+
+  .rgpdLabel {
+    font-family: var(--font-titi) !important;
+    font-size: 0.6rem !important;
+    font-style: italic;
+  }
+
+  .btn-submit {
+    width: 130px;
+    height: 40px;
+    background: transparent;
+    border-radius: 20px;
+    text-transform: uppercase;
+    font-family: var(--font-titi);
+    transition: 0.4s;
+    margin-bottom: 30px;
+  }
+  .btn-submit:hover {
+    background: var(--red);
+    color: white;
+    cursor: pointer;
+    font-weight: 700;
+    transition: 0.4s ease-in-out;
+    transform: scale(1.08);
+  }
+}

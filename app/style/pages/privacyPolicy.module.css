@@ -13,3 +13,35 @@
   font-family: var(--font-titi);
   font-style: italic;
 }
+
+
+/* //* media screen mobile first // */
+@media screen and (min-width: 320px) and (max-width: 1024px) {
+  .rgpd-container {
+    padding: 5px 30px;
+    height: auto;
+  }
+  
+  .rgpd-container h3 {
+    font-family: "vcr";
+    letter-spacing: 2px;
+  }
+  
+  .rgpd-container p {
+    line-height: 22px;
+    font-family: var(--font-titi);
+    font-style: italic;    
+  }
+}
+
+@media screen and (min-width: 1025px) and (max-width: 1450px) {
+  .rgpd-container {
+    padding: 5px 30px;
+    height: auto;     
+  }
+  
+  .rgpd-container h3 {
+    font-family: "vcr";
+    letter-spacing: 2px;
+  }  
+}

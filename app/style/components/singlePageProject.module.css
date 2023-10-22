@@ -140,7 +140,7 @@
     font-family: "vcr";
     font-size: 35px;
     letter-spacing: 2px;
-    text-shadow: 3px 3px 2px rgba(0, 0, 0, 0.6);
+    text-shadow: 0px 0px 0px rgba(0, 0, 0, 0.6);
     padding-left: 0px;
   }
 
@@ -188,7 +188,7 @@
     font-family: "vcr";
     font-size: 0.7rem;
     letter-spacing: 1px;
-    text-shadow: 1.8px 1.8px 2px rgba(0, 0, 0, 0.6);
+    text-shadow: 0.5px 0.5px 2px rgba(0, 0, 0, 0.6);
   }
   .info-div a {
     text-decoration: none;
@@ -286,3 +286,164 @@
     box-shadow: 7px 9px 5px 0px rgba(0, 0, 0, 0.75);
   }
 }
+
+@media screen and (min-width: 1025px) and (max-width: 1450px) {
+  .section-singleProject {
+    height: auto;
+    margin-bottom: 30px;
+    padding: 0;
+  }
+
+  .section-singleProject > h1 {
+    margin: 10px auto;
+    text-align: center;
+    font-family: "vcr";
+    font-size: 35px;
+    letter-spacing: 2px;
+    text-shadow: 0px 0px 0px rgba(0, 0, 0, 0.6);
+    padding-left: 0px;
+  }
+
+  .main-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-right: 0px;
+    height: auto;
+  }
+
+  .main-container > img {
+    width: 90%;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: -7px 9px 5px 0px rgba(0, 0, 0, 0.75);
+    transition: 0.5s;
+    margin: 20px auto 100px;
+  }
+
+  .main-container > img:hover {
+    transform: none;
+    transition: 0.5s;
+  }
+
+  .info-div {
+    display: flex;
+    margin: 0 auto;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+  }
+
+  .info-div div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-left: 10px;
+    width: 100%;
+  }
+
+  .info-div h3 {
+    font-family: "vcr";
+    font-size: 1.2rem;
+    letter-spacing: 1px;
+    text-shadow: 0.5px 0.5px 2px rgba(0, 0, 0, 0.6);
+  }
+  .info-div a {
+    text-decoration: none;
+    color: black;
+    transition: 0.5s;
+  }
+  .info-div a:hover {
+    color: var(--red);
+    text-decoration: 1px underline var(--red);
+    text-underline-offset: 5px;
+    transition: 0.5s;
+  }
+  .info-div h4 {
+    font-family: var(--font-titi);
+    font-size: 0.9rem;
+    font-weight: 300;
+    font-style: italic;
+    letter-spacing: 0.8px;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.6);
+  }
+
+  .second-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: auto;
+  }
+  .second-container > h2 {
+    font-family: "vcr";
+    letter-spacing: 3px;
+    text-align: center;
+  }
+
+  .second-container > p {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2rem;
+    width: 90%;
+    height: auto;
+    font-style: italic;
+    font-family: var(--font-titi);
+    line-height: 28px;
+    border: 3px solid black;
+    padding: 20px 15px;
+    text-shadow: 0.3px 0.3px 1px rgba(0, 0, 0, 0.6);
+    box-shadow: 7px 9px 5px 0px rgba(0, 0, 0, 0.75);
+    transition: 0.5s;
+    margin: 0 auto 50px;
+  }
+  .second-container > p:hover {
+    transform: none;
+    transition: 0.5s;
+  }
+
+  .third-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: auto;
+  }
+  .third-container > img {
+    width: 90%;
+    height: auto;
+    margin: 0 auto 50px;
+    border-radius: 10px;
+    box-shadow: -7px 9px 5px 0px rgba(0, 0, 0, 0.75);
+    transition: 0.5s;
+  }
+  .third-container > img:hover {
+    transform: none;
+    transition: 0.5s;
+  }
+  .third-container div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  .third-container h2 {
+    font-family: "vcr";
+    letter-spacing: 0.8px;
+    text-align: center;
+  }
+  .third-container p {
+    width: 75%;
+    text-align: center;
+    font-style: italic;
+    font-family: var(--font-titi);
+    line-height: 30px;
+    border: 3px solid black;
+    padding: 8px 14px;
+    text-shadow: 0.7px 0.7px 2px rgba(0, 0, 0, 0.6);
+    box-shadow: 7px 9px 5px 0px rgba(0, 0, 0, 0.75);
+  }
+}
+
