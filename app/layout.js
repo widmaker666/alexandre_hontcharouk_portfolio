@@ -50,7 +50,7 @@ export default function RootLayout({ children }) {
         <meta property="og:description" content={metadata.ogDescription} />
         <meta property="og:type" content={metadata.ogType} />
         <meta property="og:url" content={metadata.ogUrl} />
-        <meta property="og:image" content={imageOg} />
+        <meta property="og:image" content="https://i.postimg.cc/nr93TB6X/Alexandre-Hontcharouk.png"/>
         <meta property="og:image:alt" content={imageOg} />
         <meta property="og:locale" content={metadata.ogLocale} />
       </Head>
