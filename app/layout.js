@@ -51,6 +51,7 @@ export default function RootLayout({ children }) {
         <meta property="og:type" content={metadata.ogType} />
         <meta property="og:url" content={metadata.ogUrl} />
         <meta property="og:image" content={imageOg} />
+        <meta property="og:image:alt" content={imageOg} />
         <meta property="og:locale" content={metadata.ogLocale} />
       </Head>
       <body>
