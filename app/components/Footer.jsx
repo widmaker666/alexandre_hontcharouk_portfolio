@@ -26,7 +26,7 @@ const Footer = () => {
           </div>
         </div>
         <div className={styles.div3}>
-          <a href="https://www.linkedin.com/in/alexandre-hontcharouk-developpeur-web-frontend-javascript-reactjs/">
+          <a target="_blank" href="https://www.linkedin.com/in/alexandre-hontcharouk-developpeur-web-frontend-javascript-reactjs/">
             <svg
               xmlns="http://www.w3.org/2000/svg"
               className="icon icon-tabler icon-tabler-brand-linkedin"
@@ -47,7 +47,7 @@ const Footer = () => {
               <path d="M16 16v-3a2 2 0 0 0 -4 0" />
             </svg>
           </a>
-          <a href="https://github.com/widmaker666">
+          <a target="_blank" href="https://github.com/widmaker666">
             <svg
               xmlns="http://www.w3.org/2000/svg"
               className="icon icon-tabler icon-tabler-brand-github"
