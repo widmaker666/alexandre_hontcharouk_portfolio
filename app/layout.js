@@ -4,6 +4,7 @@ import Head from "next/head";
 import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
 import AdminContextProvider from "./context/AdminContext";
+import imageOg from './assets/images/AlexandreHontcharouk.webp'
 
 //* Fonts *//
 const vcr = VT323({
@@ -49,7 +50,7 @@ export default function RootLayout({ children }) {
         <meta property="og:description" content={metadata.ogDescription} />
         <meta property="og:type" content={metadata.ogType} />
         <meta property="og:url" content={metadata.ogUrl} />
-        <meta property="og:image" content={metadata.ogImage} />
+        <meta property="og:image" content={imageOg} />
         <meta property="og:locale" content={metadata.ogLocale} />
       </Head>
       <body>
