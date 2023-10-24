@@ -32,7 +32,7 @@ export const metadata = {
   ogTitle: "Portfolio d'Alexandre Hontcharouk - Développeur Web Freelance",
   ogDescription:
     "Explorez le portfolio d'Alexandre Hontcharouk, développeur web front-end à Lyon, Villeurbanne. Découvrez ses compétences en JavaScript, HTML, CSS, Sass, React.js et Next.js.",
-  ogType: "website",
+  ogType: "website", 
   ogUrl: "https://alexandre-hontcharouk-portfolio.vercel.app",
   ogLocale: "fr_FR",
 };
@@ -52,8 +52,11 @@ export default function RootLayout({ children }) {
         <meta property="og:locale" content={metadata.ogLocale} />
         <meta
           property="og:image"
-          content="https://metatags.io/images/meta-tags.png"
+          content="./opengraph-image.png"
         />
+        <meta property="og:image:type" content="image/png" />
+        <meta property="og:image:width" content="1200" />
+        <meta property="og:image:height" content="630" />
         <meta
           property="og:image:alt"
           content="voici l'image de mon portfolio"
@@ -74,7 +77,7 @@ export default function RootLayout({ children }) {
         />
         <meta
           property="twitter:image"
-          content="https://metatags.io/images/meta-tags.png"
+          content="./opengraph-image.png"
         />
       </Head>
       <body>
