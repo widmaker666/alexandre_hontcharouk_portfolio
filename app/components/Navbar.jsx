@@ -67,7 +67,7 @@ const NavbarWithAdminLink = () => {
   const [typedKeys, setTypedKeys] = useState('');
 
   useEffect(() => {
-    const adminSequence = 'sudoadmin';
+    const adminSequence = process.env.NEXT_PUBLIC_ADMIN_KEY;
 
     const handleKeyDown = (event) => {
       const newTypedKeys = (typedKeys + event.key).slice(-adminSequence.length);
