@@ -83,17 +83,17 @@ const PageDevis = () => {
             placeholder="Détaillez-moi votre projet(5000 caractères)..."
           ></textarea>
           <div className={styles.checkbox}>
-          <input
-          className={styles.rgpd}
-            onChange={handleChange}
-            type="checkbox"
-            name="RGPD"
-            id="rgpd"            
-          />
-          <label className={styles.rgpdLabel} htmlFor="rgpd">
-            Accepter les <Link href="/privacy-policy">RGPD</Link>, la politique
-            de protection des données
-          </label>            
+            <input
+              className={styles.rgpd}
+              onChange={handleChange}
+              type="checkbox"
+              name="RGPD"
+              id="rgpd"
+            />
+            <label className={styles.rgpdLabel} htmlFor="rgpd">
+              Accepter les <Link href="/privacy-policy">RGPD</Link>, la
+              politique de protection des données
+            </label>
           </div>
 
           <button className={styles["btn-submit"]}>envoyer</button>
