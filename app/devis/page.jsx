@@ -77,8 +77,7 @@ const PageDevis = () => {
           <textarea
             name="description"
             id="inputDescription"
-            minLength="2"
-            maxLength="5000"
+            minLength="2"            
             required
             placeholder="Détaillez-moi votre projet(5000 caractères)..."
           ></textarea>
