@@ -29,10 +29,10 @@ const LoginAdmin = () => {
       setPasswordAdmin("");
       setPhraseAdmin("");
       router.push("/form-project");
-    } else {
-      alert("Alert qui est tu !");
-      router.push("/");
+      return;
     }
+    alert("Alert qui est tu !");
+    router.push("/");
   };
 
   return (

@@ -8,15 +8,15 @@ import AllProjects from "./components/AllProjects";
 const experienceData = [
   {
     title: "Developpeur Web",
-    date: "2022 - 2023",
+    date: "2022 à aujourd'hui",
     description:
       "RNCP 5 (bac+2) formation à distance développeur web 1200h intensives sur 6 mois. Technologie apprise : HTML / CSS / SASS / JAVASCRIPT / REACTJS / RUBY / RUBY ON RAILS",
   },
   {
-    title: "Developpeur lead Javascript",
-    date: "2023",
+    title: "Developpeur JS/TS scrap",
+    date: "avril 2023 à aujourd'hui",
     description:
-      "Developpement seul d'un site vitrine en HTML/SASS/CSS/JAVASCRIPt pour la créatrice de bijoux fantaisie Miss Camille Bijoux",
+      "Développeur chez LYA protect de robot de scraping en JS/TS",
   },
   {
     title: "Photographe évènementiel",
